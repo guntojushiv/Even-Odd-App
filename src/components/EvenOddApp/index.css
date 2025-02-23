@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 150px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 20px;
+  height: 65vh;
+  width: 65vw;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 34px;
+}
+
+.paragraph {
+  color: #334155;
+  font-size: 12px;
+}
